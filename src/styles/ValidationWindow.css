@@ -1,0 +1,22 @@
+.tracker-box div {
+    margin: 5px 0;
+}
+
+.tracker-box .validated {
+    color: #4F95FF;
+    transition: 0.7s;
+}
+
+.tracker-box .not-validated {
+    color: #F85858;
+    transition: 0.7s;
+}
+
+.list-icon {
+    margin-right: 8px;
+}
+
+.list-icon.green {
+    color: rgb(75, 191, 36);
+    transition: 0.7s;
+}

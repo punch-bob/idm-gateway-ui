@@ -1,0 +1,54 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+}
+
+.mainWrapper {
+    width: 73vw;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4%;
+}
+
+.wrapper {
+    height: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainWrapper > h1 {
+    color: #00023B;
+}
+
+.mainWrapper > h1 {
+    margin-top: 0;
+}
+
+.dragAndDropWrapper {
+    width: 29%;
+    height: 31%;
+    align-self: flex-end top;
+    margin-right: 4%;
+    margin-top: calc();
+}
+
+.btnWrapper {
+    align-self: flex-end;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1.5%;
+    margin-left: -4%;
+}
+
+.title > h1 {
+    color: #00023B;
+}

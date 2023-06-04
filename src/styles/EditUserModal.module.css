@@ -1,0 +1,25 @@
+.wrapper {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4%;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: #00023B;
+    margin-top: -2%;
+}
+
+.titleWrapper > h1 {
+    color: #00023B;
+}
+
+.buttonsWrapper {
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}

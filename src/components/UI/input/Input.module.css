@@ -1,0 +1,51 @@
+.inputWrapper {
+    padding: 2% 4%;   
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    width: 91%;
+
+    margin-bottom: 5%;
+}
+
+.inputWrapper input {
+    flex: 2;
+    width: 95%;
+    outline: none;
+    background-color: white;
+    border: hidden;
+    font-size: 1.02rem;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+.inputWrapper input:focus {
+    outline: none;
+}
+
+
+.passwordBtn {
+    cursor: pointer;
+
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0;
+    pointer-events: none;
+}
+
+input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: .3;
+    pointer-events: all;
+    cursor: pointer;
+}

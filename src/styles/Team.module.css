@@ -1,0 +1,80 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.mainWrapper {
+    width: calc(59vw - 8%);
+    height: 93.3vh;
+    position: fixed;
+    left: 21vw;
+    top: 6.7vh;
+    padding: 2% 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 11vh;
+}
+
+.userInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #818181;
+}
+
+.username {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #00023B;
+}
+
+.descriptionWrapper { 
+    width: 85%;
+    display: inline;
+}
+
+.serviceWrapper {
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-left: 1rem;
+    border-left: 3px solid #00023B;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #00023B;
+}
+
+.pencilIcon {
+    color: #00023B;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.serviceLabel {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #00023B;
+}
+
+.deleteButton {
+    align-self: flex-end top;
+    font-size: 1.2rem;
+}

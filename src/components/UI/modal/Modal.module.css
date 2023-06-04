@@ -1,0 +1,33 @@
+.modalWrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modalWrapper.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalContent {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateY(-70%);
+    transition: 0.5s all;
+    width: fit-content;
+    display: flex;
+}
+
+.modalContent.active {
+    transform: scale(1);
+}

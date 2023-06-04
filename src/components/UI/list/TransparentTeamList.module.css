@@ -1,0 +1,56 @@
+.wrapper {
+    width: 20vw;
+    height: calc(93.3vh - 1px);
+    position: fixed;
+    top: calc(6.7vh + 1px);
+    right: 0;
+    background-color: #F6F6F6;
+    border-left: 1px solid #00023B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transparentListWrapper {
+    overflow-y: scroll;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    max-height: 78%;
+}
+
+.itemWrapper {
+    width: 100%;
+    align-self: flex-start;
+    background-color: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #00023B;
+    cursor: default;
+}
+
+.deleteIcon {
+    margin-left: 10%;
+    color: #F85858;
+    cursor: pointer;
+}
+
+.listTitle {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 8% 0;
+}
+
+.addButton {
+    align-self: flex-start;
+    margin: 7% 0 0 15%;
+}
+
+.user {
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+:root {
+    --confirm-button-background: #4F95FF;
+    --confirm-button-disabled: rgba(79, 149, 255, 0.5);
+    --confirm-button-disabled-boder: rgba(79, 149, 255, 0);
+}
+
+.confirm-btn {
+    background: var(--confirm-button-background);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 2.4rem;
+    width: 6.6rem;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 3px solid var(--confirm-button-background);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#cancel {
+    background: #F6F6F6;
+    border-color: #F6F6F6;
+    color: #818181;
+}
+
+#delete {
+    background: #F85858;
+    border-color: #F85858;
+    color: white;
+}
+
+#delete:hover {
+    color: #F85858;
+    background: inherit;
+    transition: 0.7s;
+}
+
+.confirm-btn:hover {
+    background: inherit;
+    color: #4F95FF;
+    transition: 0.7s;
+}
+
+#cancel:hover {
+    border-color: rgba(0, 0, 0, 0.25);
+    transition: 0.7s;
+}
+
+.confirm-btn:disabled {
+    background: var(--confirm-button-disabled);
+    border-color: var(--confirm-button-disabled-boder);
+    cursor: default;
+    pointer-events: none;
+}

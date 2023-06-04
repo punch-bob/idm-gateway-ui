@@ -1,0 +1,60 @@
+.wrapper {
+    background: #FFFFFF;
+    border: 2.5px dashed rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.fileInput input[type=file] {
+    z-index: -1;
+	opacity: 0;
+    width: 0;
+	height: 0;
+}
+
+.fileInputText {
+    text-decoration-line: underline;
+    color: #4F95FF;
+    cursor: pointer;
+}
+
+.dndText {
+    display: inline;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #818181;
+    text-align: center;
+    cursor: default;
+}
+
+.textLine {
+    width: 100%;
+    display: inline;
+}
+
+.photo {
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform: scale(0.9);
+}
+
+.removePhoto {
+    font-weight: bolder;
+    position: absolute;
+    top: -5%;
+    right: -2%;
+}
+
+.photoWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
